@@ -41,7 +41,7 @@
         "name": "Windows PowerShell",
         "commandline": "powershell.exe",
         "hidden": false,
-        "backgroundImage": "C:\\Users\\Abhishek\\Downloads\\powershell.png",
+        "backgroundImage": "E:\\Projects\\config-files\\assets\\powershell.png",
         "colorScheme": "Desert"
       },
       {
@@ -68,7 +68,7 @@
         "hidden": false,
         "name": "Ubuntu-20.04",
         "source": "Windows.Terminal.Wsl",
-        "backgroundImage": "C:\\Users\\Abhishek\\Downloads\\ubuntu.png",
+        "backgroundImage": "E:\\Projects\\config-files\\assets\\ubuntu.png",
         "colorScheme": "Ubuntu"
       },
       {
