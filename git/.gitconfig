@@ -1,5 +1,13 @@
 [core]
 	editor = \"C:\\Users\\Abhishek\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+  autocrlf = false
 [user]
 	name = AbhishekMaira10
 	email = abhishekmaira1999@gmail.com
+[alias]
+	history = log --graph --date=format:'%a, %d %b %Y  %H:%M:%S' --pretty=format:'%C(yellow)%h %C(bold red) %ad %C(magenta)| %s%C(auto)%d %C(bold blue)[%an]%C(auto)'
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
